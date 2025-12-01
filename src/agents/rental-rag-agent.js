@@ -51,7 +51,7 @@ class RentalRAGAgent {
     // Create the agent with tools
     this.agent = new Agent({
       name: "RentalAssistant",
-      model: "gpt-4o-mini",
+      model: "gpt-5-mini",
       instructions: `You are an AI rental assistant that helps users find perfect rental properties. You have access to a comprehensive database of rental properties with detailed information including descriptions, amenities, locations, pricing, and more.
 
 Your primary capabilities:
