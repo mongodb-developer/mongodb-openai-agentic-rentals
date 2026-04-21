@@ -1,11 +1,11 @@
 # MongoDB AI Rental Search Demo
 
-A modern rental property search application powered by MongoDB Atlas Vector Search and OpenAI's Agents SDK for intelligent, conversational property discovery.
+A modern rental property search application powered by MongoDB Vector Search and OpenAI's Agents SDK for intelligent, conversational property discovery.
 
 ## Features
 
 - 🤖 **AI-Powered Search**: Natural language queries like "6 bedroom rental in Manhattan under $1000"
-- 🔍 **Vector Search**: Semantic search using MongoDB Atlas Vector Search with text embeddings
+- 🔍 **Vector Search**: Semantic search using MongoDB Vector Search with text embeddings
 - 💬 **Conversational Interface**: Interactive AI assistant that maintains conversation context
 - 🎯 **Smart Filtering**: AI automatically extracts and applies search criteria to UI filters
 - 🔐 **User Authentication**: Secure JWT-based authentication with user profiles
@@ -87,13 +87,13 @@ MONGODB_COLLECTION_NAME=rentals
 
 #### 4.3 Create Vector Search Index
 
-1. **Navigate to Atlas Search**:
+1. **Navigate to MongoDB Search**:
    - Go to your Atlas cluster dashboard
-   - Click on "Atlas Search" tab
+   - Click on "MongoDB Search" tab
    - Click "Create Search Index"
 
 2. **Select Vector Search**:
-   - Choose "Atlas Vector Search"
+   - Choose "MongoDB Vector Search"
    - Select your database: `rental_app`
    - Select your collection: `rentals`
 
