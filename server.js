@@ -2,7 +2,7 @@ import { Elysia } from 'elysia';
 import { MongoClient, ObjectId } from 'mongodb';
 
 // MongoDB connection
-const uri = 'mongodb+srv://rental-app-user:RentalApp2024%21@ilcluster.wagfu.mongodb.net/rental_app';
+const uri = <YOUR_URI>
 const client = new MongoClient(uri);
 let db, rentalsCollection;
 
